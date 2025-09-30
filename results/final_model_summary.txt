@@ -1,0 +1,16 @@
+HEART DISEASE CLASSIFICATION - FINAL MODEL SUMMARY
+============================================================
+
+FINAL OPTIMIZED MODEL: Random Forest
+Optimized F1-Score: 0.5557
+Test Accuracy: 0.5815
+Improvement from baseline: +0.0118
+
+BEST HYPERPARAMETERS:
+----------------------------------------
+bootstrap: True
+max_depth: 10
+max_features: sqrt
+min_samples_leaf: 1
+min_samples_split: 2
+n_estimators: 100

@@ -1,0 +1,7 @@
+Method,Num_Features,CV_Accuracy_Mean,CV_Accuracy_Std,Features
+Composite Top 8,8,0.5761261261261261,0.019995623317859052,"['cp', 'thalach', 'exang', 'oldpeak', 'chol', 'thal', 'age', 'sex']"
+Random Forest Top 8,8,0.5666666666666667,0.03881725882363839,"['age', 'chol', 'thalach', 'oldpeak', 'trestbps', 'cp', 'exang', 'thal']"
+All Features,13,0.5666390880676595,0.0295078179178431,"['age', 'sex', 'cp', 'trestbps', 'chol', 'fbs', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca', 'thal']"
+RFE Selected,8,0.5462401176686891,0.024324817662866295,"['age', 'sex', 'cp', 'chol', 'restecg', 'thalach', 'oldpeak', 'ca']"
+XGBoost Top 8,8,0.5271924986210701,0.04377636385491308,"['cp', 'sex', 'ca', 'thal', 'exang', 'slope', 'oldpeak', 'fbs']"
+Statistical Significant,7,0.5232027946313661,0.056587020085446506,"['cp', 'sex', 'exang', 'thal', 'fbs', 'restecg', 'ca']"

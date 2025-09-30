@@ -1,0 +1,14 @@
+feature,ranking
+age,1
+sex,1
+cp,1
+chol,1
+thalach,1
+restecg,1
+ca,1
+oldpeak,1
+fbs,2
+thal,3
+exang,4
+slope,5
+trestbps,6
